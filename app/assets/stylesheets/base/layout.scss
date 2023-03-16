@@ -7,7 +7,10 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
@@ -16,7 +19,7 @@ button {
 	// color:
 	// font-weight:
 	// padding:
-	// border-radius:
+	//border-radius:
 	// transition:
 	// font-family:
 	// text-transform:
@@ -48,3 +51,40 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
+.header {
+	background: white;
+}
+
+.main-nav {
+	align-items: center;
+}
+
+.left-nav {
+	float: left;
+	padding: 10px;
+
+}
+
+.left-nav > ul > li {
+	float: left;
+	padding: 10px;
+}
+
+.right-nav {
+	float: right;
+	padding: 10px;
+}
+
+.right-nav > ul > li {
+	float: left;
+	padding: 10px;
+}
+
+a {
+	background-color: darkblue;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
