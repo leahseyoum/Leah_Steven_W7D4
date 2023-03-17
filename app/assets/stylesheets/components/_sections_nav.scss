@@ -1,0 +1,35 @@
+.div-section {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    left: 30px;
+    border-bottom: 1px solid black ;
+    width: 100%;
+    position: relative;
+    top: 110px;
+}
+
+
+.left-side > ul {
+    display: flex;
+
+}
+
+.right-side > ul {
+    display: flex;
+   
+}
+
+// .section {
+//     width: 80%;
+// }
+
+.section-names {
+    padding: 5px;
+}
+
+.section-names:hover {
+    background-color: grey;
+    border-bottom: 2px solid black; 
+    
+}

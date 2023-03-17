@@ -9,16 +9,18 @@
 }
 
 .language-nav {
+	width: 100%;
 	position: absolute;
-	top: -15px;
-	left: calc(50% - (177.78px/2));
+	top: 55px;
+	left: 0;
 	background: white;
+	//float: center;
 	border: 1px solid $light-gray;
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 
-	a {
+	.mast-links {
 		margin: 0 5px;
 		text-transform: uppercase;
 		font-family: $sans-serif;

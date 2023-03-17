@@ -1,3 +1,15 @@
 // Use the gear_dropdown.png screenshot as a style guide
 
 @use '../variables' as *;
+
+.gear-dropdown {
+    position: absolute;
+    top: 100%;
+    // right ;
+    display: none;
+    background: white;
+    padding: 5px;
+    // border: ;
+    width: 20px;
+    z-index: 50;
+}

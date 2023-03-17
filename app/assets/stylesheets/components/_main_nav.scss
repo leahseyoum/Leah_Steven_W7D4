@@ -43,4 +43,19 @@
   
 }
 
+#gear {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#gear:hover {
+  background-color: grey;
+  color: black;
+}
+
+#gear:hover {
+  
+}
     
